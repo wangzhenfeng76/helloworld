@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click(View view) {
-        Toast.makeText(this, "hello aaaaa  ww", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "hello ab  ww", Toast.LENGTH_LONG).show();
         b = (String) button.getText();
         if (b.equals("A")) {
             button.setText("B");
